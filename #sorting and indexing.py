@@ -1,3 +1,11 @@
+#second largest nunber
+#using extra variable 
+first, second =array[0],0
+for num in array:
+  if num>first:
+    second=first
+    first=num
+print(second)
 #sorting and indexing
 array=[1,2,3,4,5,6,6]
 array=list(set(array))
